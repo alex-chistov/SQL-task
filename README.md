@@ -29,7 +29,8 @@ SELECT get_total_stock('Apple iPhone 14');
 **Результат:**  
 `9`
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/ddbf9fad-8f11-4c93-82fa-8d91214218cf)
+
 
 2. Реализовать хранимую функцию/процедуру, которая по наименованию товара и возрасту покупателя выводит сообщение о возможности приобретения данного товара данным покупателем.
 ```sql
@@ -63,7 +64,8 @@ SELECT can_buy_good('Apple iPhone 14', 16);
 **Результат:**  
 `Покупка возможна`
 
-![alt text](image-1.png)
+![image-1](https://github.com/user-attachments/assets/931b01cb-9072-4cff-8132-abe6f7056168)
+
 
 Пример вызова:
 
@@ -73,7 +75,8 @@ SELECT can_buy_good('Apple iPhone 14', 13);
 **Результат:**  
 `Покупка запрещена по возрастным ограничениям`
 
-![alt text](image-2.png)
+![image-2](https://github.com/user-attachments/assets/0e2c925f-788a-4565-951c-3c850deec720)
+
 
 3. Реализовать хранимую функцию/процедуру, которая оценивает возможность покупки заданного количества товара в магазине (название магазина и товара задаются пользователем). При этом необходимо также проверить возрастные ограничения покупателя (используя функцию из п.2).
 
@@ -116,7 +119,8 @@ SELECT can_purchase_in_shop('МВидео', 'Apple iPhone 14', 1, 18);
 ```
 **Результат:**  
 `Покупка возможна`
-![alt text](image-3.png)
+![image-3](https://github.com/user-attachments/assets/68e29207-f3d7-466a-949e-c455804b10c3)
+
 
 Пример вызова:
 ```sql
@@ -125,7 +129,8 @@ SELECT can_purchase_in_shop('МВидео', 'Apple iPhone 14', 10, 20);
 **Результат:**  
 `Недостаточно товара в магазине`
 
-![alt text](image-4.png)
+![image-4](https://github.com/user-attachments/assets/1f8f8ffe-c095-4e2c-97c3-bc4420a10459)
+
 
 Пример вызова:
 ```sql
@@ -133,4 +138,5 @@ SELECT can_purchase_in_shop('МВидео', 'Apple iPhone 14', 1, 15);
 ```
 **Результат:**  
 `Покупка запрещена по возрастным ограничениям`
-![alt text](image-5.png)
+![image-5](https://github.com/user-attachments/assets/ac85d426-85dc-4262-861a-2a7bb48cd631)
+
