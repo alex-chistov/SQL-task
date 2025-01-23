@@ -138,5 +138,6 @@ SELECT can_purchase_in_shop('МВидео', 'Apple iPhone 14', 1, 15);
 ```
 **Результат:**  
 `Покупка запрещена по возрастным ограничениям`
+
 ![image-5](https://github.com/user-attachments/assets/ac85d426-85dc-4262-861a-2a7bb48cd631)
 
