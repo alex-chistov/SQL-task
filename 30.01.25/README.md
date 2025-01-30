@@ -60,8 +60,7 @@ SELECT can_purchase_in_shop('МВидео', 'Apple iPhone 14', 10, 20);
 **Результат:**  
 `Недостаточно товара в магазине`
 
-
-
+![image](https://github.com/user-attachments/assets/72f4f9ae-4eac-4a80-9d4a-3ad55fe2e4c0)
 
 
 **Пример вызова**
