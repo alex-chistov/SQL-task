@@ -26,7 +26,7 @@ BEGIN
     CLOSE stock_cursor;
 
     IF available_stock IS NULL OR available_stock < quantity THEN
-        RETURN 'Недостаточно товара в магазине.';
+        RETURN 'Недостаточно товара в магазине';
     END IF;
 
     OPEN age_cursor(item_name);
@@ -34,10 +34,10 @@ BEGIN
     CLOSE age_cursor;
 
     IF buyer_age < required_age THEN
-        RETURN 'Покупка запрещена по возрастным ограничениям.';
+        RETURN 'Покупка запрещена по возрастным ограничениям';
     END IF;
 
-    RETURN 'Покупка возможна.';
+    RETURN 'Покупка возможна';
 END;
 $$ LANGUAGE plpgsql;
 ```
@@ -48,7 +48,8 @@ SELECT can_purchase_in_shop('МВидео', 'Apple iPhone 14', 1, 18);
 **Результат:**  
 `Покупка возможна`
 
-![image](https://github.com/user-attachments/assets/ca9f1c44-2e69-479f-ae22-b8745103eaa7)
+![image](https://github.com/user-attachments/assets/daa2a5fb-9beb-4c29-a40e-8b82e51720ce)
+
 
 
 
@@ -59,7 +60,7 @@ SELECT can_purchase_in_shop('МВидео', 'Apple iPhone 14', 10, 20);
 **Результат:**  
 `Недостаточно товара в магазине`
 
-![image-1](https://github.com/user-attachments/assets/67f59a30-e860-4af3-8f11-d82ad2c44f1c)
+
 
 
 
@@ -70,4 +71,5 @@ SELECT can_purchase_in_shop('МВидео', 'Apple iPhone 14', 1, 15);
 **Результат:**  
 `Покупка запрещена по возрастным ограничениям`
 
-![image-2](https://github.com/user-attachments/assets/ab6b5c70-f5c1-465a-bdaa-f4f69fe01d3d)
+![image](https://github.com/user-attachments/assets/d930509b-6fbc-4824-adb0-c0e490a922c3)
+
