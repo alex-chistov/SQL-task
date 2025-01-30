@@ -47,7 +47,8 @@ SELECT can_purchase_in_shop('МВидео', 'Apple iPhone 14', 1, 18);
 **Результат:**  
 `Покупка возможна`
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/ca9f1c44-2e69-479f-ae22-b8745103eaa7)
+
 
 
 **Пример вызова**
@@ -57,7 +58,8 @@ SELECT can_purchase_in_shop('МВидео', 'Apple iPhone 14', 10, 20);
 **Результат:**  
 `Недостаточно товара в магазине`
 
-![alt text](image-1.png)
+![image-1](https://github.com/user-attachments/assets/67f59a30-e860-4af3-8f11-d82ad2c44f1c)
+
 
 
 **Пример вызова**
@@ -67,4 +69,4 @@ SELECT can_purchase_in_shop('МВидео', 'Apple iPhone 14', 1, 15);
 **Результат:**  
 `Покупка запрещена по возрастным ограничениям`
 
-![alt text](image-2.png)
+![image-2](https://github.com/user-attachments/assets/ab6b5c70-f5c1-465a-bdaa-f4f69fe01d3d)
