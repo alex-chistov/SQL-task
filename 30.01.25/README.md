@@ -1,4 +1,5 @@
 `Статический курсор stock_cursor используется для получения количества товара в магазине`
+
 `Параметризованный курсор age_cursor принимает параметр good_name для определения минимального возраста для покупки товара`
 ```sql
 CREATE OR REPLACE FUNCTION can_purchase_in_shop(shop_name TEXT, item_name TEXT, quantity INT, buyer_age INT)
