@@ -22,10 +22,13 @@
 
 `4. Тестирование`
 
-![image-8](https://github.com/user-attachments/assets/a23775ff-57a4-4dbf-ada8-7633ce4d147e)
+![image](https://github.com/user-attachments/assets/5bb83ce7-40a1-44f6-bf1e-ab6975db7d37)
+
+
 
 
 ![image-13](https://github.com/user-attachments/assets/48581b41-09d9-424c-b4a2-b72d1d0f8b00)
 
 
-![image-11](https://github.com/user-attachments/assets/a7abfad6-e125-4bda-9653-f360831abddc)
+![image](https://github.com/user-attachments/assets/1cc6712f-bc78-4b43-88e5-b1182456cd5b)
+
